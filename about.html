@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    </head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logis/smd1.png"/></a>
+            <div class="new">
+            <div class="nav-links" id="navLinks">
+                  <i class="fa fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            
+            <i class="fa-solid fa-bars" onclick="showMenu"></i>
+        </nav>
+        <h1>About Us</h1>    
+    </section>
+      
+    <!-- about us -->
+
+    <div class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the worlds best university</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, quia.Laudantium iusto unde 
+                    voluptatibus odio minima sequi cumque earum quae deleniti repudiandae voluptate,
+                    deserunt nam omnis officiis accusantium mollitia minus.</p>
+                <a href="" class="log_btn red_btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+            <img src="logis/about.jpg" alt="Error!">
+        </div>
+    </div>
+    </div>
+
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut distinctio illo fugit obcaecati<br/> expedita voluptate quia nisi voluptates delectus!</p>    
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+
+    <!-- java script -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
